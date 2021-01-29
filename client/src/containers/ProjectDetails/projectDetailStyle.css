@@ -1,0 +1,28 @@
+.buttons {
+	text-align: center;
+	width: 100%;
+}
+
+.section__title--border-small {
+	width: 50%;
+	border-bottom: 1px solid #d2282e;
+	margin: 0 auto;
+	height: 16px;
+	margin-bottom: 2vh;
+}
+
+.section__title--border-large {
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 3px solid #d2282e;
+}
+
+.section__title {
+	text-align: center;
+	margin-top: 3vh;
+	margin-bottom: 2vh;
+}
+
+.section__title--text {
+	text-transform: uppercase;
+}

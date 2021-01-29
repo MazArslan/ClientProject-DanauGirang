@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageThumbnail/> component rendering should render correctly 1`] = `
+<Fragment>
+  <Card
+    className="card"
+    tag="div"
+  >
+    <div
+      className="card-heading"
+    >
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="2"
+        >
+          <span
+            className="dot-false"
+          />
+        </Col>
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+          xs="4"
+        >
+          <b>
+            Image 2
+          </b>
+        </Col>
+        <Col
+          sm={
+            Object {
+              "offset": 1,
+              "size": "auto",
+            }
+          }
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <p>
+            2020-03-22
+          </p>
+        </Col>
+      </Row>
+    </div>
+    <CardImg
+      alt="Unique id string"
+      src="/api/images/cameraTrap/5e123ty34u35567h2g/0001.png"
+      tag="img"
+      top={true}
+      width="20%"
+    />
+  </Card>
+</Fragment>
+`;

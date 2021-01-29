@@ -1,0 +1,65 @@
+{
+ "images": [
+  {
+   "file": "./Examples/images/detector_example.jpg",
+   "max_detection_conf": 0.999,
+   "detections": [
+    {
+     "category": "1",
+     "conf": 0.999,
+     "bbox": [
+      0.4045,
+      0.1018,
+      0.5816,
+      0.7754
+     ]
+    }
+   ]
+  },
+  {
+   "file": "./Examples/images/warthog_classifications.jpg",
+   "max_detection_conf": 0.999,
+   "detections": [
+    {
+     "category": "1",
+     "conf": 0.999,
+     "bbox": [
+      0.6683,
+      0.5346,
+      0.1664,
+      0.1214
+     ]
+    },
+    {
+     "category": "1",
+     "conf": 0.114,
+     "bbox": [
+      0.7128,
+      0.5367,
+      0.05104,
+      0.04593
+     ]
+    },
+    {
+     "category": "1",
+     "conf": 0.109,
+     "bbox": [
+      0.07012,
+      0.5137,
+      0.01946,
+      0.02691
+     ]
+    }
+   ]
+  }
+ ],
+ "detection_categories": {
+  "1": "animal",
+  "2": "person",
+  "4": "vehicle"
+ },
+ "info": {
+  "detection_completion_time": "2020-03-10 17:18:48",
+  "format_version": "1.0"
+ }
+}

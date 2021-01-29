@@ -1,0 +1,17 @@
+.userList--title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.userList--list {
+    text-align: center;
+    width: 40%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.userList--item {
+    border-bottom: gray 1px solid !important;
+}

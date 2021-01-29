@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "file": "./Examples/exampleImage.jpeg",
+      "max_detection_conf": 0.999,
+      "detections": [
+        {
+          "category": "1",
+          "conf": 0.999,
+          "bbox": [
+            0.01144,
+            0.2809,
+            0.7878,
+            0.6896
+          ]
+        }
+      ]
+    }
+  ],
+  "detection_categories": {
+    "1": "animal",
+    "2": "person",
+    "4": "vehicle"
+  },
+  "info": {
+    "detection_completion_time": "2020-03-10 17:17:09",
+    "format_version": "1.0"
+  }
+}

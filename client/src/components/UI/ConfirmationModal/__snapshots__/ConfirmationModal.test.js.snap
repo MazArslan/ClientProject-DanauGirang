@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConfirmationModal/> component rendering should render correctly 1`] = `
+<Modal
+  autoFocus={true}
+  backdrop={true}
+  backdropTransition={
+    Object {
+      "mountOnEnter": true,
+      "timeout": 150,
+    }
+  }
+  centered={false}
+  fade={true}
+  isOpen={true}
+  keyboard={true}
+  modalTransition={
+    Object {
+      "timeout": 300,
+    }
+  }
+  onClosed={[Function]}
+  onOpened={[Function]}
+  returnFocusAfterClose={true}
+  role="dialog"
+  scrollable={false}
+  style={
+    Object {
+      "zIndex": 2000,
+    }
+  }
+  toggle={[MockFunction]}
+  unmountOnClose={true}
+  zIndex={1050}
+>
+  <ModalHeader
+    charCode={215}
+    closeAriaLabel="Close"
+    tag="h5"
+    toggle={[MockFunction]}
+    wrapTag="div"
+  >
+    Submission confirmation
+  </ModalHeader>
+  <ModalBody
+    tag="div"
+  >
+    Are you sure you want to submit?
+  </ModalBody>
+  <ModalFooter
+    tag="div"
+  >
+    <Button
+      className="cancel-button"
+      color="secondary"
+      onClick={[MockFunction]}
+      tag="button"
+    >
+      Cancel
+    </Button>
+    <Button
+      className="submit-button"
+      color="success"
+      onClick={[MockFunction]}
+      tag="button"
+    >
+      Yes, Submit
+    </Button>
+  </ModalFooter>
+</Modal>
+`;

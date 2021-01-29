@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CaptureEventForm/> component rendering should render shallow correctly with props 1`] = `
+<div>
+  <spinner />
+</div>
+`;

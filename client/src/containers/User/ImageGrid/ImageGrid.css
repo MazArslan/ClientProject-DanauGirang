@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+}
+
+.title {
+	margin-top: 24px;
+	margin-bottom: 2px;
+}
+
+.paginationWrapper {
+	overflow-x: auto;
+}
+
+.image-grid {
+	z-index: 25;
+	position: sticky;
+}
+
+.pagination {
+	justify-content: center;
+	margin: 30px;
+}
+
+.modal-dialog {
+	position: relative;
+	width: auto;
+	pointer-events: none;
+	max-width: 500px;
+	margin: 1.75rem auto;
+}
+
+.card-wrapper {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.card-button {
+	border: none;
+	background-color: transparent;
+}
+
+.card-button:focus {
+	outline-color: rgb(44, 161, 15);
+	outline-style: solid;
+}

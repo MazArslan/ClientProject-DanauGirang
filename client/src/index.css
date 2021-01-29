@@ -1,0 +1,61 @@
+.upload {
+    display: flex;
+    width: 100vw;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.upload__title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.upload__input {
+    float: left;
+    width: 50vw;
+}
+
+.upload__box {
+    position: relative;
+    width: 60%;
+
+    transform: translateX(-50%);
+    left: 50%;
+
+    margin-top: 2vh;
+}
+
+.upload__section {
+    margin-top: 1.5vh;
+}
+
+.upload__button {
+    margin-top: 2vh;
+    border-radius: 15px;
+
+    text-transform: uppercase;
+
+    font-size: 1.5rem;
+}
+.upload__files {
+    float: left;
+    width: 50vw;
+}
+
+.upload__list {
+    list-style-type: none;
+    border: black 1px solid;
+    overflow-y: scroll;
+
+    height: 60vh;
+    width: 90%;
+
+}
+
+.upload__list--item {
+    width: 100%;
+    border-bottom: black 1px solid;
+    margin-top: 1vh;
+    margin-bottom: .5vh;
+}

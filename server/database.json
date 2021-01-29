@@ -1,0 +1,4 @@
+{
+	"dev": { "ENV": "DATABASE_DEV_LINK" },
+	"defaultEnv": "dev"
+}

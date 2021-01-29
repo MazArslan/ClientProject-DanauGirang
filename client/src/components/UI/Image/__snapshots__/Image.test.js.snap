@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageThumbnail/> component rendering should render correctly 1`] = `
+<Container
+  className="image-component"
+  tag="div"
+>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className="text-center"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <img
+        alt="Unique id string"
+        src="/api/images/cameraTrap/5e123ty34u35567h2g/0001.png"
+        style={
+          Object {
+            "maxHeight": "600px",
+            "maxWidth": "720px",
+          }
+        }
+      />
+    </Col>
+  </Row>
+</Container>
+`;

@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageGrid/> component rendering should render correctly 1`] = `
+<Fragment>
+  <Container
+    tag="div"
+  >
+    <div
+      className="image-grid"
+    >
+      <div
+        className="title"
+      >
+        <Row
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Col
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+            xs="2"
+          >
+            <pageCount
+              currentPage="1"
+              totalPages="0"
+            />
+          </Col>
+        </Row>
+      </div>
+      <Button
+        className="filter-button"
+        color="info"
+        onClick={[Function]}
+        tag="button"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                512,
+                512,
+                Array [],
+                "f0b0",
+                "M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z",
+              ],
+              "iconName": "filter",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          swapOpacity={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </Button>
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      />
+      <Row
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <Col
+          className="text-center"
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <div
+            className="paginationWrapper"
+          >
+            <Pagination
+              aria-label="Page navigation"
+              listTag="ul"
+              tag="nav"
+            >
+              <PaginationItem
+                className="navigate-back"
+                disabled={true}
+                tag="li"
+              >
+                <PaginationLink
+                  href="#"
+                  onClick={[Function]}
+                  previous={true}
+                  tag="a"
+                />
+              </PaginationItem>
+              <PaginationItem
+                className="navigate-forward"
+                disabled={true}
+                tag="li"
+              >
+                <PaginationLink
+                  href="#"
+                  next={true}
+                  onClick={[Function]}
+                  tag="a"
+                />
+              </PaginationItem>
+            </Pagination>
+          </div>
+        </Col>
+      </Row>
+    </div>
+  </Container>
+</Fragment>
+`;

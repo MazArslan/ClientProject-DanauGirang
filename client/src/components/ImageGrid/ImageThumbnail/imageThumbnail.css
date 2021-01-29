@@ -1,0 +1,20 @@
+.card-heading {
+	margin-top: 6px;
+	margin-left: 6px;
+}
+
+.dot-true {
+	height: 25px;
+	width: 25px;
+	background-color: #99ff66;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot-false {
+	height: 25px;
+	width: 25px;
+	background-color: #ff6666;
+	border-radius: 50%;
+	display: inline-block;
+}

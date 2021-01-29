@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioGroup/> component rendering should render correctly 1`] = `
+<FormGroup
+  row={true}
+  tag="fieldset"
+>
+  <Row
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Col
+      className="text-center"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <ButtonGroup
+        role="group"
+        tag="div"
+      >
+        <Button
+          active={true}
+          color="primary"
+          onClick={[MockFunction]}
+          outline={true}
+          tag="button"
+          value="YES"
+        >
+          Yes
+        </Button>
+        <Button
+          active={false}
+          color="primary"
+          onClick={[MockFunction]}
+          outline={true}
+          tag="button"
+          value="NO"
+        >
+          No
+        </Button>
+      </ButtonGroup>
+    </Col>
+  </Row>
+</FormGroup>
+`;
